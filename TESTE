@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delícias da Casa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fffaf0;
+      color: #333;
+    }
+
+    header {
+      background-color: #e07b39;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f4a261;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 15px;
+      margin-bottom: 20px;
+      max-width: 400px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #e07b39;
+      color: white;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Delícias da Casa</h1>
+    <p>Comida caseira feita com amor ❤️</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#pratos">Pratos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <main>
+    <section id="inicio">
+      <h2>Bem-vindo(a)!</h2>
+      <p>Aqui você encontra os melhores pratos caseiros, preparados com ingredientes frescos e muito carinho.</p>
+    </section>
+
+    <section id="pratos">
+      <h2>Pratos do Dia</h2>
+
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/rice-1239244_960_720.jpg" alt="Prato de arroz, feijão e carne">
+        <h3>Prato Feito</h3>
+        <p>Arroz, feijão, bife acebolado e salada. O clássico que nunca sai de moda!</p>
+      </div>
+
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2018/07/26/08/43/lasagna-3560931_960_720.jpg" alt="Lasanha caseira">
+        <h3>Lasanha Caseira</h3>
+        <p>Lasanha de carne com molho artesanal, perfeita para o almoço de domingo!</p>
+      </div>
+
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2020/03/10/10/35/chicken-4910893_960_720.jpg" alt="Frango assado">
+        <h3>Frango Assado</h3>
+        <p>Frango douradinho, temperado com ervas e acompanhado de batatas rústicas.</p>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>📞 Telefone: (11) 99999-9999</p>
+      <p>📧 Email: deliciasdacasa@email.com</p>
+      <p>📍 Endereço: Rua das Flores, 123 - Centro</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Delícias da Casa | Feito com carinho 🍲</p>
+  </footer>
+
+</body>
+</html>
